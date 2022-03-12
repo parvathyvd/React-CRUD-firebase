@@ -1,0 +1,105 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+.mr-2{
+    margin-right: 1rem;
+}
+.mb-2{
+    margin-bottom: 2rem;
+}
+.btn{
+    padding: .5rem 2rem;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-success{
+    background-color: green;
+}
+
+.btn-warning{
+    background-color: rgb(230, 179, 70);
+}
+.btn-danger{
+    background-color: red;;
+}
+
+.btn-refresh{
+    background-color: rgb(42, 110, 165);
+}
+
+.book-list{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.book-record{
+    border: 1px solid grey;
+    padding: .5rem 0;
+}
+
+.book-detail{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    font-weight: 400;
+    color: rgb(85, 84, 84);
+}
+
+.book-desc{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.book-desc1{
+    width: 25%;
+}
+.book-desc2{
+    width: 20%;
+}
+.book-desc3{
+    width: 20%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.backdrop{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(75, 75, 75, 0.411);
+    position: fixed;
+    top:0;
+    left: 0;
+}
+
+.alert{
+    position: relative;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 0 .2rem .7rem solid rgba(0,0,0,0.7);
+    text-align: center;
+    padding: 5rem 2rem;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pl-2{
+    padding-left: 1rem;
+}

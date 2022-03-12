@@ -1,0 +1,13 @@
+.form-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: .3rem .8rem;
+    color: black;
+    font-size: 1.2rem;
+    border: 1px solid rgba(83, 83, 83, 0.589);
+    border-radius: 5px;
+}
